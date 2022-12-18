@@ -35,6 +35,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-web {
   color: var(--accent-color);
@@ -44,6 +45,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -61,6 +63,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .project-list .link-text {
   color: var(--primary-text-color);
@@ -72,6 +75,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .advantages-list .title,
@@ -82,14 +86,15 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-.section.secondary {
+.section-secondary {
   background-color: var(--background-secondary-section);
+  text-align: center;
 }
 .hero .button {
   background-color: var(--accent-color);
   color: var(--white-color);
   font-weight: 600;
-  font-size: inherit;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.04em;
   font-family: inherit;
@@ -114,4 +119,8 @@ body {
 .button-list .button:focus {
   color: var(--white-color);
   background-color: var(--button-hover-color);
+}
+
+.project-list .link {
+  text-decoration: none;
 }
