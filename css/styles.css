@@ -14,7 +14,6 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -72,8 +71,12 @@ body {
   line-height: 1.19;
   letter-spacing: 0.04em;
   font-family: inherit;
+  cursor: pointer;
 }
-
+.hero .button:hover,
+.hero .button:focus {
+  background-color: var(--button-hover-color);
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: 600;
@@ -107,6 +110,7 @@ body {
   line-height: inherit;
   letter-spacing: 0.04em;
   font-weight: 600;
+  cursor: pointer;
 }
 .button-list .button:hover,
 .button-list .button:focus {
