@@ -55,10 +55,11 @@ body {
   line-height: 1.5;
   text-decoration: none;
 }
-.hero{
+.hero {
   background-color: var(--title-text-color);
   color: var(--white-color);
-  text-align: center;}
+  text-align: center;
+}
 .hero .hero-title {
   font-weight: 600;
   font-size: 56px;
