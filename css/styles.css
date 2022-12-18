@@ -7,18 +7,6 @@
   --footer-text-coclor: #e7e9fc;
   --button-hover-color: #404bbf;
 }
-
-.hero {
-  background-color: var(--title-text-color);
-  color: var(--white-color);
-  font-weight: 600;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-}
-.list {
-  list-style: none;
-}
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
@@ -26,7 +14,12 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
 }
+.list {
+  list-style: none;
+}
+
 .logo {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
@@ -43,8 +36,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
   text-decoration: none;
 }
 .site-nav .link.current {
@@ -65,8 +56,22 @@ body {
   line-height: 1.5;
   text-decoration: none;
 }
-.project-list .link-text {
-  color: var(--primary-text-color);
+.hero {
+  background-color: var(--title-text-color);
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  font-family: inherit;
 }
 
 .section-title {
@@ -86,26 +91,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
+.project-list .link-text {
+  color: var(--primary-text-color);
+}
 .section-secondary {
   background-color: var(--background-secondary-section);
   text-align: center;
 }
-.hero .button {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.04em;
-  font-family: inherit;
-}
-.footer {
-  background-color: var(--primary-text-color);
-  color: var(--footer-text-coclor);
-}
-.footer-logo {
-  color: var(--background-secondary-section);
-}
+
 .button-list .button {
   color: var(--accent-color);
   background-color: var(--footer-text-coclor);
@@ -123,4 +116,11 @@ body {
 
 .project-list .link {
   text-decoration: none;
+}
+.footer {
+  background-color: var(--primary-text-color);
+  color: var(--footer-text-coclor);
+}
+.footer-logo {
+  color: var(--background-secondary-section);
 }
