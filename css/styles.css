@@ -8,13 +8,6 @@
   --button-hover-color: #404bbf;
 }
 
-* {
-  margin: 0;
-  border: 0;
-  list-style: none;
-  box-sizing: border-box;
-}
-
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
